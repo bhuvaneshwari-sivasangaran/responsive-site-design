@@ -377,6 +377,10 @@ label + * {
   grid-template-columns: 1fr 1fr;
 }
 
+.aboutusContent{
+  text-align: center;
+}
+
 .aboutusContent p {
   line-height: 24px;
 }
@@ -386,20 +390,20 @@ label + * {
   width: 130px;
 }
 
-main{
+.contactContainer {
   padding-top: 100px;
 }
 
-.contactdetailsContents{
+.contactdetailsContents {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.contactdetailsContents ul{
+.contactdetailsContents ul {
   list-style: none;
 }
 
-.contactdetailsContents ul li{
+.contactdetailsContents ul li {
   text-align: center;
 }
 
@@ -440,7 +444,9 @@ main{
 
 @media screen and (max-width: 760px) {
   .contributionContainer,
-  .serviceContainer,.contactdetailsContents{
+  .serviceContainer,
+  .contactdetailsContents,
+  .aboutusContainer {
     grid-template-columns: 1fr;
   }
 
@@ -516,13 +522,13 @@ main{
     column-gap: 15px;
   }
 
-  .contactdetailsContents{
+  .contactdetailsContents {
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
   }
 
-  main{
+  .contactContainer {
     padding-top: 200px;
   }
 }
