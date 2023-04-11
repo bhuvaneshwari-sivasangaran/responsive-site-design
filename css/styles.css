@@ -135,14 +135,13 @@
   background-color: #f68955;
   color: black;
   font-weight: bold;
-  border: 2px solid black;
+  border: none;
   text-transform: uppercase;
 }
 
 .btn-primary:hover {
   background-color: #0583d2;
   color: white;
-  border-color: white;
 }
 
 .gradientContainer p {
@@ -198,7 +197,7 @@ p {
 }
 
 header {
-  z-index: 1;
+  z-index: 2;
   padding: 5px 15%;
   height: 75px;
   background-color: #b8e3ff;
@@ -211,7 +210,7 @@ header {
 } */
 
 nav {
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   position: fixed;
   text-align: center;
@@ -386,6 +385,230 @@ label + * {
   width: 130px;
 }
 
+/* CSS by - Vaibhav Arora - Start*/
+
+.banner-container {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  /* right: 10%; */
+  width: 37%;
+  font-size: 32px;
+  color: white;
+  font-family: Poppins;
+}
+.banner-container p {
+  position: unset;
+  text-align: left;
+  font-weight: 700;
+}
+
+.gradientContainer img {
+  height: 565px;
+}
+
+.contribute-montly-donation {
+  margin-top: 15px;
+}
+
+.montly-donation-btnGrp {
+  text-align: center;
+}
+
+.contribute-heading {
+  font-size: 40px;
+}
+
+.montly-donation-btnGrp button {
+  background-color: transparent;
+  border-radius: 0;
+  font-family: Poppins;
+  width: 100px;
+  border: 1px solid;
+}
+
+.contribute-banner2 {
+  margin-top: 50px;
+  background-image: url(/images/contribute/children-gb9cb3853c_1280.png);
+}
+
+.contribute-banner2-body {
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(184, 227, 255, 0.4);
+}
+
+.contribute-banner2-body p {
+  font-size: 30px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.contribute-family-container,
+.contribute-adoption-container {
+  margin-top: 70px;
+}
+
+.contribute-family-heading {
+  margin-top: 70px;
+  font-size: 45px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.contribute-family-body {
+  margin-top: 50px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  flex: 0 1 20%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contribute-family-img img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.contribute-family-content {
+  padding: 20px 35px 35px;
+  text-align: center;
+}
+
+.contribute-family-body h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.contribute-adoption-body {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contribute-adoption-card {
+  flex: 1 0 25%;
+  max-width: 25%;
+  position: relative;
+}
+
+.contribute-adoption-card img {
+  display: block;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f68955;
+  /* #f68955 */
+}
+
+.contribute-adoption-card:hover .overlay {
+  opacity: 0.3;
+}
+
+.contribute-adoption-card:hover h3 {
+  z-index: 1;
+}
+
+.contribute-adoption-card h3 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+.contribute-foster-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: #f7f6f2;
+}
+
+.contribute-foster-banner {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.contribute-foster-banner img {
+  width: 100%;
+}
+
+.contribute-foster-content {
+  flex: 0 0 45%;
+  max-width: 45%;
+  align-self: center;
+  text-align: center;
+  text-align: left;
+}
+
+.contribute-foster-content h2 {
+  font-size: 40px;
+  color: #000000;
+  text-align: left;
+}
+
+.contribute-foster-content p {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #363636;
+  text-align: left;
+}
+
+.contribute-highest-donation-conatiner {
+  width: 80%;
+  margin: 70px auto;
+}
+
+.contribute-highest-donation-table table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.contribute-highest-donation-table thead {
+  background-color: #0583d2;
+  color: #ffffff;
+}
+
+.contribute-highest-donation-table td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-family: Poppins;
+}
+
+.contribute-highest-donation-table tr:nth-child(even) {
+  background-color: #daf0ff;
+}
+
+/* CSS by - Vaibhav Arora - End*/
+
 @media screen and (max-width: 1024px) {
   .serviceContainer {
     grid-template-columns: 1fr 1fr;
@@ -423,7 +646,8 @@ label + * {
 
 @media screen and (max-width: 760px) {
   .contributionContainer,
-  .serviceContainer,.aboutusContainer {
+  .serviceContainer,
+  .aboutusContainer {
     grid-template-columns: 1fr;
   }
 
