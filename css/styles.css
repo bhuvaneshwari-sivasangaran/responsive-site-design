@@ -386,6 +386,23 @@ label + * {
   width: 130px;
 }
 
+main{
+  padding-top: 100px;
+}
+
+.contactdetailsContents{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contactdetailsContents ul{
+  list-style: none;
+}
+
+.contactdetailsContents ul li{
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .serviceContainer {
     grid-template-columns: 1fr 1fr;
@@ -423,7 +440,7 @@ label + * {
 
 @media screen and (max-width: 760px) {
   .contributionContainer,
-  .serviceContainer,.aboutusContainer {
+  .serviceContainer{
     grid-template-columns: 1fr;
   }
 
@@ -489,5 +506,13 @@ label + * {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.8)
     );
+  }
+  .contactusContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 120px auto;
+    column-gap: 15px;
   }
 }
