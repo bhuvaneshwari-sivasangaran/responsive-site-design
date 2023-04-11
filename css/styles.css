@@ -440,7 +440,7 @@ main{
 
 @media screen and (max-width: 760px) {
   .contributionContainer,
-  .serviceContainer{
+  .serviceContainer,.contactdetailsContents{
     grid-template-columns: 1fr;
   }
 
@@ -514,5 +514,15 @@ main{
     display: grid;
     grid-template-columns: 120px auto;
     column-gap: 15px;
+  }
+
+  .contactdetailsContents{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main{
+    padding-top: 200px;
   }
 }
