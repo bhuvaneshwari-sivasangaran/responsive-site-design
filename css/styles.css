@@ -395,7 +395,6 @@ label + * {
   position: absolute;
   top: 30%;
   left: 5%;
-  /* right: 10%; */
   width: 37%;
   font-size: 32px;
   color: white;
@@ -408,7 +407,7 @@ label + * {
 }
 
 .gradientContainer img {
-  height: 565px;
+  height: 487px;
 }
 
 .contribute-montly-donation {
@@ -434,11 +433,12 @@ label + * {
 .contribute-banner2 {
   margin-top: 50px;
   background-image: url(/images/contribute/children-gb9cb3853c_1280.png);
+  /* Image downloaded from Pixabay */
 }
 
 .contribute-banner2-body {
   text-align: center;
-  padding: 100px;
+  padding: 75px;
   background-color: rgb(184, 227, 255, 0.4);
 }
 
@@ -486,7 +486,7 @@ label + * {
   object-fit: cover;
 }
 .contribute-family-content {
-  padding: 20px 35px 35px;
+  padding: 20px 10px 30px;
   text-align: center;
 }
 
@@ -663,6 +663,22 @@ th {
   .footerLeft {
     display: block;
   }
+
+  /* CSS by - Vaibhav Arora - Start*/
+
+  .banner-container {
+    top: 20%;
+  }
+
+  .card {
+    flex: 0 1 40%;
+  }
+
+  .contribute-adoption-card {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+  /* CSS by - Vaibhav Arora - End*/
 }
 
 @media screen and (max-width: 760px) {
@@ -754,4 +770,44 @@ th {
   .contactContainer {
     padding-top: 200px;
   }
+
+  /* CSS by - Vaibhav Arora - Start*/
+
+  .banner-container {
+    top: 50%;
+    width: 90%;
+  }
+
+  .contribute-heading {
+    font-size: 29px;
+  }
+
+  .montly-donation-btnGrp button {
+    width: 70px;
+    padding: 8px 15px;
+  }
+
+  .contribute-banner2-body {
+    padding: 30px 10px;
+  }
+
+  .card {
+    flex: 0 1 90%;
+  }
+
+  .contribute-adoption-card {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .contribute-foster-banner {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .contribute-foster-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 25px 15px 40px;
+  }
+  /* CSS by - Vaibhav Arora - End*/
 }
