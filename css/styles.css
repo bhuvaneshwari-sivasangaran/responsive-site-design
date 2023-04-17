@@ -523,6 +523,10 @@ label + * {
   height: 150px;
   width: 130px;
 }
+#about-container{
+position: relative;
+padding-top: 150px;
+}
 
 /* CSS by - Vaibhav Arora - Start*/
 
@@ -905,6 +909,10 @@ th {
   .contactContainer {
     padding-top: 200px;
   }
+    #about-container{
+    position: relative;
+    padding-top: 325px;
+    }
 
   /* CSS by - Vaibhav Arora - Start*/
 
