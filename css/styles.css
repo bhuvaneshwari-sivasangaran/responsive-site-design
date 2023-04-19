@@ -146,12 +146,13 @@
 
 .gradientContainer p {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 55%;
   right: 10%;
   font-size: 32px;
   color: white;
   font-family: Poppins;
+  font-weight: 700;
 }
 
 .gradientContainer {
@@ -188,7 +189,7 @@ h3 {
 }
 
 .mainPara {
-  margin: 15px 15%;
+  margin: 24px 96px;
   line-height: 30px;
 }
 
@@ -343,6 +344,184 @@ hr {
   background-image: url("../images/koala-3055832_640.jpg");
 }
 
+
+
+
+/* service page css starts here */
+
+.serviceBannerContent p {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.servicesMain{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.servicesContainer-1{
+    display: grid;
+    grid-template-columns: 0.75fr 2fr;
+    margin-top: 48px;
+}
+
+.serviceContainer-2{
+    display :grid;
+    grid-template-columns: 2fr 0.75fr;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-top: 48px;
+    background-color: aliceblue;
+    border: solid 1px #0583d2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.servicesContent{
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.servicesContent-2{
+  margin-left: 24px;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+
+.servicesContent p{
+    margin-top: 6px;
+    text-align: justify;
+}
+
+.servicesContent-2 p{
+  margin-top: 6px;
+  text-align: justify;
+}
+
+.service-img-container{
+    width: 300px;
+}
+
+.service-img-container-2{
+    width: 300px;
+    margin-left:auto;
+}
+
+.service-img-container img, .service-img-container-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ourwork{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 72px;
+}
+
+#heading{
+    margin-top: 48px;
+}
+
+.section-img-container{
+    padding-bottom: 0;
+}
+
+.section-img-container img{
+    height: 100%;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.reviewContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 48px;
+    padding-top: 24px;
+    margin-bottom:48px;
+    margin-top: 0;
+}
+
+.reviewContainer section{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid orange;
+}
+
+.circle {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+.circle img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section p{
+    text-align: justify;
+    
+    padding-top: 6px;
+    padding-bottom:0px;
+}
+.reviewContainer section p{
+    text-align: justify;
+    padding: 24px;
+}
+
+.recognitionContainer{
+    display: grid;
+    grid-template-columns: 0.55fr 2fr;
+    padding: 24px;
+    margin-bottom: 48px;
+    background-color: aliceblue;
+    border: solid 1px #0583d2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recognition-img-container{
+    width: 200px;
+    height: 200px;
+}
+
+.recognition-img-container img{
+  height:100%;
+  width:100%;
+}
+
+.recognitionContent{
+  text-align: center;
+}
+
+.recognitionContent p {
+  padding-top:16px;
+  text-align: justify;
+}
+
+.contributionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contributionContent p {
+    line-height: 24px;
+}
+/* service page css ends here */
+
+
+
+
 .contributionContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -353,12 +532,28 @@ hr {
 }
 /* contact-us and about-us */
 .contactusContainer {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   padding: 10px 10px 10px 10px;
   display: grid;
-  grid-template-columns: 120px auto;
-  column-gap: 15px;
+  grid-template-columns: 150px auto;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.contactdetailsContainer {
+  background-color: #b8e3ff;
+}
+
+.day {
+  font-weight: 700;
+}
+
+.contactSubmit {
+  display: grid;
+  margin: 0 300px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 label + * {
@@ -372,6 +567,7 @@ label + * {
 }
 
 .aboutusContainer {
+  margin: 24px 96px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -386,7 +582,12 @@ label + * {
 
 .aboutusContent img {
   height: 150px;
-  width: 130px;
+  width: 225px;
+}
+
+#about-container{
+position: relative;
+padding-top: 150px;
 }
 
 /* CSS by - Vaibhav Arora - Start*/
@@ -410,16 +611,8 @@ label + * {
   height: 487px;
 }
 
-.contribute-montly-donation {
-  margin-top: 15px;
-}
-
 .montly-donation-btnGrp {
   text-align: center;
-}
-
-.contribute-heading {
-  font-size: 40px;
 }
 
 .montly-donation-btnGrp button {
@@ -431,8 +624,7 @@ label + * {
 }
 
 .contribute-banner2 {
-  margin-top: 50px;
-  background-image: url(/images/contribute/children-gb9cb3853c_1280.png);
+  background-image: url("/images/contribute/children-gb9cb3853c_1280.png");
   /* Image downloaded from Pixabay */
 }
 
@@ -446,11 +638,6 @@ label + * {
   font-size: 30px;
   font-family: Poppins;
   font-weight: 700;
-}
-
-.contribute-family-container,
-.contribute-adoption-container {
-  margin-top: 70px;
 }
 
 .contribute-family-heading {
@@ -492,7 +679,6 @@ label + * {
 
 .contribute-family-body h4 {
   font-size: 25px;
-  margin-bottom: 20px;
   font-family: Poppins;
 }
 
@@ -549,7 +735,6 @@ label + * {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 100px;
   background-color: #f7f6f2;
 }
 
@@ -571,13 +756,12 @@ label + * {
 }
 
 .contribute-foster-content h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: #000000;
   text-align: left;
 }
 
 .contribute-foster-content p {
-  margin: 20px 0;
   font-size: 18px;
   color: #363636;
   text-align: left;
@@ -585,7 +769,7 @@ label + * {
 
 .contribute-highest-donation-conatiner {
   width: 80%;
-  margin: 70px auto;
+  margin: 48px auto;
 }
 
 .contribute-highest-donation-table table {
@@ -614,7 +798,7 @@ th {
 /* CSS by - Vaibhav Arora - End*/
 
 .contactContainer {
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 .contactdetailsContents {
@@ -631,6 +815,11 @@ th {
 }
 
 @media screen and (max-width: 1024px) {
+
+  .gradientContainer img {
+    height: 350px !important;
+  }
+
   .serviceContainer {
     grid-template-columns: 1fr 1fr;
   }
@@ -664,6 +853,15 @@ th {
     display: block;
   }
 
+  .contactusContainer {
+    width: 50%;
+    margin: 0 10%;
+  }
+
+  .contactusContainer input[type="text"], .contactusContainer textarea {
+    width: 400px;
+  }
+
   /* CSS by - Vaibhav Arora - Start*/
 
   .banner-container {
@@ -682,6 +880,16 @@ th {
 }
 
 @media screen and (max-width: 760px) {
+
+  .gradientContainer img {
+    height: 200px !important;
+  }
+
+  .ourwork,
+  .reviewContainer,
+  .recognitionContainer,
+  .servicesContainer-1,
+  .serviceContainer-2,
   .contributionContainer,
   .serviceContainer,
   .contactdetailsContents,
@@ -703,8 +911,12 @@ th {
   }
 
   .mainPara {
-    margin: 15px 10%;
+    margin: 24px;
     line-height: 30px;
+  }
+
+  .aboutusContainer {
+    margin: 24px;
   }
 
   nav a {
@@ -732,6 +944,7 @@ th {
     position: fixed;
     z-index: 100;
     border-bottom: 2px solid black;
+    padding: 5px 5%;
   }
 
   #search {
@@ -739,7 +952,7 @@ th {
   }
 
   .gradientContainer p {
-    top: 38%;
+    top: 41%;
     left: 10%;
     right: 10%;
     font-size: 16px;
@@ -757,7 +970,7 @@ th {
     margin: 0 auto;
     padding: 10px 10px 10px 10px;
     display: grid;
-    grid-template-columns: 120px auto;
+    grid-template-columns: 75px auto;
     column-gap: 15px;
   }
 
@@ -768,22 +981,71 @@ th {
   }
 
   .contactContainer {
-    padding-top: 200px;
+    padding-top: 306px;
   }
 
-  .contribute-highest-donation-conatiner{
-    width: 90%;
+
+  #about-container{
+    position: relative;
+    padding-top: 325px;
   }
 
+  /*CSS by - Rahul Odedara - Start*/
+  
+  .service-img-container-2 {
+    grid-row: 1;
+  }
+
+  .servicesContent{
+    margin-top: 24px;
+    display: block;
+  }
+  
+  .servicesContent-2{
+    margin-top: 24px;
+    margin-left: 0;
+    padding-right:24px;
+    padding-left: 24px;
+    display: block;
+  }
+  
+  .reviewContainer{
+    grid-row-gap: 24px;
+  }
+  
+  .service-img-container{
+      display: grid;
+      width: 100%;
+      place-items: center;
+      margin-left: 0;
+   }
+
+  .service-img-container img{
+    width: 300px;
+  }
+
+  .serviceContainer-2{
+    padding-right: 0;
+  }
+
+  .service-img-container-2{
+    display: grid;
+    width: 100%;
+    place-items: center;
+  }
+
+  .service-img-container-2 img{
+    width: 300px;
+  }
+  
+  /*CSS by - Rahul Odedara - End*/
+  
+  
   /* CSS by - Vaibhav Arora - Start*/
 
   .banner-container {
-    top: 50%;
+    top: 40%;
     width: 90%;
-  }
-
-  .contribute-heading {
-    font-size: 29px;
   }
 
   .montly-donation-btnGrp button {
@@ -804,14 +1066,34 @@ th {
     max-width: 100%;
   }
 
-  .contribute-foster-banner {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .contribute-foster-conatiner {
+    margin-top: 0;
   }
+
+  .contribute-foster-banner {
+    display: none;
+  }
+
   .contribute-foster-content {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 25px 15px 40px;
   }
+
+  .contactSubmit {
+    margin: 0;
+  }
+
+  .contactusContainer input[type="text"], .contactusContainer textarea {
+    width: auto;
+  }
+
+  header button {
+    margin-left: auto;
+  }
+  
+  .contribute-highest-donation-conatiner{
+    width: 90%;
+  }
+
   /* CSS by - Vaibhav Arora - End*/
 }
