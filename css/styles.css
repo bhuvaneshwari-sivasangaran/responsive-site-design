@@ -380,12 +380,13 @@ hr {
 }
 
 .servicesContent{
+  margin: 24px;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
 }
 
 .servicesContent-2{
-  margin-left: 24px;
+  margin: 24px;
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
 }
@@ -909,6 +910,10 @@ th {
   .contribute-highest-donation-conatiner{
     width: 90%;
   }
+
+  .serviceContainer-2 {
+    padding-right: 0;
+  }
   
 .contribute-highest-donation-table table {
   margin-top: 20px;
@@ -1007,7 +1012,7 @@ th {
     margin: 0 auto;
     padding: 10px 10px 10px 10px;
     display: grid;
-    grid-template-columns: 75px auto;
+    grid-template-columns: auto;
     column-gap: 15px;
   }
 
@@ -1040,9 +1045,8 @@ th {
   
   .servicesContent-2{
     margin-top: 24px;
-    margin-left: 0;
-    padding-right:24px;
-    padding-left: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
     display: block;
   }
   
