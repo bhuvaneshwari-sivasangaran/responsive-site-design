@@ -191,6 +191,7 @@ h3 {
 .mainPara {
   margin: 24px 96px;
   line-height: 30px;
+  text-align: justify;
 }
 
 p {
@@ -390,11 +391,13 @@ hr {
 }
 
 .servicesContent p{
-    margin-top: 6px;
-    text-align: justify;
+  line-height: 24px;
+  margin-top: 6px;
+  text-align: justify;
 }
 
 .servicesContent-2 p{
+  line-height: 24px;
   margin-top: 6px;
   text-align: justify;
 }
@@ -471,13 +474,14 @@ hr {
 
 section p{
     text-align: justify;
-    
+    line-height: 24px;
     padding-top: 6px;
     padding-bottom:0px;
 }
 .reviewContainer section p{
-    text-align: justify;
-    padding: 24px;
+  line-height: 24px;
+  text-align: justify;
+  padding: 24px;
 }
 
 .recognitionContainer{
@@ -505,6 +509,7 @@ section p{
 }
 
 .recognitionContent p {
+  line-height: 24px;
   padding-top:16px;
   text-align: justify;
 }
@@ -516,20 +521,10 @@ section p{
 
 .contributionContent p {
     line-height: 24px;
+    text-align: justify;
 }
 /* service page css ends here */
 
-
-
-
-.contributionContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.contributionContent p {
-  line-height: 24px;
-}
 /* contact-us and about-us */
 .contactusContainer {
   width: 70%;
@@ -547,6 +542,10 @@ section p{
 
 .day {
   font-weight: 700;
+}
+
+.mid {
+  text-align: center;
 }
 
 .contactSubmit {
@@ -830,6 +829,22 @@ th {
 
 @media screen and (max-width: 1024px) {
 
+  .service-img-container, .service-img-container-2 {
+    margin: auto;
+  }
+
+  .ourwork,
+  .reviewContainer,
+  .recognitionContainer,
+  .servicesContainer-1,
+  .serviceContainer-2,
+  .contributionContainer,
+  .serviceContainer,
+  .contactdetailsContents,
+  .aboutusContainer {
+    grid-template-columns: 1fr;
+  }
+
   .gradientContainer img {
     height: 350px !important;
   }
@@ -901,7 +916,7 @@ th {
   /* CSS by - Vaibhav Arora - End*/
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 
   .gradientContainer img {
     height: 200px !important;
