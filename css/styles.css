@@ -724,7 +724,6 @@ padding-top: 150px;
   opacity: 0;
   transition: 0.5s ease;
   background-color: #f68955;
-  /* #f68955 */
 }
 
 .contribute-adoption-card:hover .overlay {
