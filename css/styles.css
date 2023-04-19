@@ -348,10 +348,16 @@ hr {
 
 
 /* service page css starts here */
+
 .serviceBannerContent p {
     font-weight: bold;
     color: white;
     text-align: center;
+}
+
+.servicesMain{
+    width: 85%;
+    margin: 0 auto;
 }
 
 .servicesContainer-1{
@@ -363,34 +369,43 @@ hr {
 .serviceContainer-2{
     display :grid;
     grid-template-columns: 2fr 0.75fr;
-    padding-right: 48px;
-    padding:24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-top: 48px;
     background-color: aliceblue;
+    border: solid 1px #0583d2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .servicesContent{
-   margin-right: 48px;
-   margin-left: 48px;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
 }
 
 .servicesContent-2{
-    margin-left: 48px;
+  margin-left: 24px;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
 }
 
-.servicesContent p,.servicesContent-2 p{
-    margin-top: 16px;
+.servicesContent p{
+    margin-top: 6px;
     text-align: justify;
 }
 
+.servicesContent-2 p{
+  margin-top: 6px;
+  text-align: justify;
+}
+
 .service-img-container{
-    margin-left: 48px;
     width: 300px;
 }
 
 .service-img-container-2{
-    margin-left:auto;
     width: 300px;
+    margin-left:auto;
 }
 
 .service-img-container img, .service-img-container-2 img{
@@ -400,10 +415,11 @@ hr {
 
 
 .ourwork{
-    margin: 48px;
-    margin-top: 0;
+    margin-top: 24px;
+    margin-bottom: 48px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 72px;
 }
 
 #heading{
@@ -411,28 +427,29 @@ hr {
 }
 
 .section-img-container{
-    padding: 24px;
     padding-bottom: 0;
 }
 
 .section-img-container img{
     height: 100%;
     width:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.campaignsContainer{
+.reviewContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 24px;
+    grid-column-gap: 48px;
     padding-top: 24px;
-    margin:48px;
+    margin-bottom:48px;
     margin-top: 0;
 }
 
-.campaignsContainer section{
+.reviewContainer section{
     text-align: center;
     background-color: aliceblue;
     padding-top: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 1px solid orange;
 }
 
@@ -454,16 +471,42 @@ hr {
 
 section p{
     text-align: justify;
+    
+    padding-top: 6px;
+    padding-bottom:0px;
+}
+.reviewContainer section p{
+    text-align: justify;
     padding: 24px;
 }
 
 .recognitionContainer{
     display: grid;
-    grid-template-columns: 0.75fr 2fr;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    grid-template-columns: 0.55fr 2fr;
+    padding: 24px;
     margin-bottom: 48px;
     background-color: aliceblue;
+    border: solid 1px #0583d2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recognition-img-container{
+    width: 200px;
+    height: 200px;
+}
+
+.recognition-img-container img{
+  height:100%;
+  width:100%;
+}
+
+.recognitionContent{
+  text-align: center;
+}
+
+.recognitionContent p {
+  padding-top:16px;
+  text-align: justify;
 }
 
 .contributionContainer {
@@ -842,6 +885,11 @@ th {
     height: 200px !important;
   }
 
+  .ourwork,
+  .reviewContainer,
+  .recognitionContainer,
+  .servicesContainer-1,
+  .serviceContainer-2,
   .contributionContainer,
   .serviceContainer,
   .contactdetailsContents,
@@ -941,6 +989,57 @@ th {
     padding-top: 325px;
   }
 
+  /*CSS by - Rahul Odedara - Start*/
+  
+  service-img-container-2 {
+    grid-row: 1;
+  }
+
+  .servicesContent{
+    margin-top: 24px;
+    display: block;
+  }
+  
+  .servicesContent-2{
+    margin-top: 24px;
+    margin-left: 0;
+    padding-right:24px;
+    padding-left: 24px;
+    display: block;
+  }
+  
+  .reviewContainer{
+    grid-row-gap: 24px;
+  }
+  
+  .service-img-container{
+      display: grid;
+      width: 100%;
+      place-items: center;
+      margin-left: 0;
+   }
+
+  .service-img-container img{
+    width: 300px;
+  }
+
+  .serviceContainer-2{
+    padding-right: 0;
+  }
+
+  .service-img-container-2{
+    display: grid;
+    width: 100%;
+    place-items: center;
+  }
+
+  .service-img-container-2 img{
+    width: 300px;
+  }
+  
+  /*CSS by - Rahul Odedara - End*/
+  
+  
   /* CSS by - Vaibhav Arora - Start*/
 
   .banner-container {
