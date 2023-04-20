@@ -422,7 +422,7 @@ hr {
     grid-column-gap: 72px;
 }
 
-#heading{
+.heading{
     margin-top: 48px;
 }
 
@@ -445,7 +445,7 @@ hr {
     margin-top: 0;
 }
 
-.reviewContainer section{
+.reviewContainer >div{
     text-align: center;
     background-color: aliceblue;
     padding-top: 24px;
@@ -469,16 +469,15 @@ hr {
     margin-right: auto;
 }
 
-section p{
+.reviewContainer >div p{
     text-align: justify;
     line-height: 24px;
     padding-top: 6px;
-    padding-bottom:0px;
+    padding-bottom:24px;
 }
-.reviewContainer section p{
-  line-height: 24px;
-  text-align: justify;
-  padding: 24px;
+
+.reviewContent{
+  padding:24px;
 }
 
 .recognitionContainer{
@@ -503,12 +502,14 @@ section p{
 
 .recognitionContent{
   text-align: center;
+  align-self: center;
 }
 
 .recognitionContent p {
   padding: 24px;
   padding-top: 16px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .contributionContainer {
@@ -920,11 +921,11 @@ th {
     grid-row-gap: 24px;
   }
 
-  .reviewContainer section{
+  .reviewContainer >div{
     padding-top:12px;
   }
 
-  .reviewContainer section p {
+  .reviewContainer >div p {
     padding:12px;
   }
 
