@@ -228,6 +228,11 @@ input {
   border-radius: 3px;
 }
 
+.footerMenu li a:hover {
+  color: #f68955;
+  text-decoration: none;
+}
+
 .brandIcon {
   height: 65px;
 }
@@ -914,10 +919,14 @@ th {
   .serviceContainer-2 {
     padding-right: 0;
   }
+
+  .footerMenu li {
+    display: block;
+  }
   
-.contribute-highest-donation-table table {
-  margin-top: 20px;
-}
+  .contribute-highest-donation-table table {
+    margin-top: 20px;
+  }
   /* CSS by - Vaibhav Arora - End*/
 }
 
@@ -946,6 +955,10 @@ th {
 
   .footer ul li {
     margin: 0 12px;
+  }
+
+  .footerMenu li {
+    display: block;
   }
 
   .contributionContent {
