@@ -228,6 +228,11 @@ input {
   border-radius: 3px;
 }
 
+.footerMenu li a:hover {
+  color: #f68955;
+  text-decoration: none;
+}
+
 .brandIcon {
   height: 65px;
 }
@@ -878,6 +883,12 @@ th {
     width: 400px;
   }
 
+  
+  .footerMenu li {
+    display: block;
+  }
+  
+
   /* CSS by - Vaibhav Arora - Start*/
 
   .banner-container {
@@ -898,9 +909,9 @@ th {
   }
 
   
-.contribute-highest-donation-table table {
-  margin-top: 20px;
-}
+  .contribute-highest-donation-table table {
+    margin-top: 20px;
+  }
   /* CSS by - Vaibhav Arora - End*/
 
   /* CSS by - Rahul Odedara - Start*/
@@ -966,6 +977,10 @@ th {
 
   .footer ul li {
     margin: 0 12px;
+  }
+
+  .footerMenu li {
+    display: block;
   }
 
   .contributionContent {
