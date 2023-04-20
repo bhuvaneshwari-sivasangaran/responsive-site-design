@@ -393,12 +393,14 @@ hr {
   line-height: 24px;
   margin-top: 6px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .servicesContent-2 p{
   line-height: 24px;
   margin-top: 6px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .service-img-container img, .service-img-container-2 img{
@@ -818,10 +820,6 @@ th {
 
 @media screen and (max-width: 1024px) {
 
-  .service-img-container, .service-img-container-2 {
-    margin: auto;
-  }
-
   .ourwork,
   .reviewContainer,
   .recognitionContainer,
@@ -908,7 +906,7 @@ th {
   /* CSS by - Rahul Odedara - Start*/
 
   .reviewContainer{
-    grid-column-gap: 12px;
+    grid-row-gap: 24px;
   }
 
   .reviewContainer section{
@@ -931,10 +929,16 @@ th {
     grid-row:1;
   }
 
+  .service-img-container, .service-img-container-2 {
+    margin: auto;
+  }
+
+  .service-img-container img, .service-img-container-2 img{
+  width:565px;
+  height:452px;
+  }
+
   /* CSS by - Rahul Odedara - End*/
-
-
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -1059,6 +1063,10 @@ th {
     display: block;
   }
   
+  .servicesContent-2 p, .servicesContent p{
+    font-size:14px;
+  }
+
   .servicesContent-2{
     margin-top: 24px;
     margin-left: 0;
@@ -1078,7 +1086,7 @@ th {
       margin-left: 0;
    }
 
-  .service-img-container img{
+  .service-img-container img, .service-img-container-2 img{
     width: 300px;
     height: 100%;
   }
